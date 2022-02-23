@@ -15,29 +15,52 @@ $(window).scroll(function(){
     document.getElementById("progress-bar").style.width = scrolled + "%";
 });
 
-// home, cycle images
-let imageIndex = 4;
-window.onload = function() {
-    setInterval(change, 3500);
-    setInterval(changeAboutUs, 3500);
+// // home, cycle images
+// let imageIndex = 4;
+// window.onload = function() {
+//     setInterval(change, 5000);
+//     setInterval(changeAboutUs, 5000);
+// }
+
+// function change() {
+//     if (imageIndex == 0)
+//         imageIndex = 4;
+
+//     $('#home-image').attr('src', 'images/interior' + imageIndex + '.jpg');
+    
+//     imageIndex--;
+// }
+
+// // about-us, cycle images
+// let imageIndex2 = 2;
+// function changeAboutUs() {
+//     if (imageIndex2 == 0)
+//         imageIndex2 = 2;
+
+//     $('#about-us-image').attr('src', 'images/interior-f' + imageIndex2 + '.jpg');
+    
+//     imageIndex2--;
+// }
+
+// home gallery
+let galleryIndex = 1;
+showImage(galleryIndex);
+
+function changeIndex(value) {
+    showImage(galleryIndex += value);
 }
 
-function change() {
-    if (imageIndex == 0)
-        imageIndex = 4;
+function showImage(value) {
+    let gallery = $('.gallery');
 
-    $('#home-image').attr('src', 'images/interior' + imageIndex + '.jpg');
-    
-    imageIndex--;
-}
+    if (value > gallery.length)
+        galleryIndex = 1;
 
-// about-us, cycle images
-let imageIndex2 = 2;
-function changeAboutUs() {
-    if (imageIndex2 == 0)
-        imageIndex2 = 2;
+    if (value < 1)
+        galleryIndex = gallery.length;
 
-    $('#about-us-image').attr('src', 'images/interior-f' + imageIndex2 + '.jpg');
-    
-    imageIndex2--;
+    for (let i = 0; i < gallery.length; i++)
+        gallery[i].style.display = 'none';
+
+    gallery[galleryIndex - 1].style.display = 'block';
 }
