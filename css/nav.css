@@ -1,0 +1,45 @@
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 2rem;
+    background-color: var(--color6);
+    opacity: .77;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav ul li {
+    margin: 0;
+    padding: .12rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color7);
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: var(--color5);
+}
+
+/* progress-bar */
+#progress-container {
+    width: 100%;
+    height: .25rem;
+    background-color: var(--color6);
+}
+
+#progress-bar {
+    height: .25rem;
+    width: 0%;
+    background-color: var(--color5);
+}

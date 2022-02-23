@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Caveat;
+    src: url("../fonts/Caveat.ttf");
+}
+
+:root {
+    --color1: #FFCE45;
+    --color2: #D4AC2B;
+    --color3: #B05E27;
+    --color4: #7E370C;
+    --color5: gold;
+    --color6: black;
+    --color7: white;
+    --color8: golderon;
+}
+
+* {
+    font-family: Caveat;
+    font-size: 18px;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color6);
+}
+
+@media only screen and (max-width: 1000px) {
+    * {
+        font-size: 16px;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav ul li {
+        margin: 0;
+        padding: .01rem;
+    }
+
+    #rest-name {
+        display: none;
+    }
+} 
+
+#name {
+    font-size: 20px;
+    color: var(--color5);
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+}
+
+hr {
+    border-top: .1rem solid var(--color4);
+}
