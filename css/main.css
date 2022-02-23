@@ -16,7 +16,7 @@
 
 * {
     font-family: Caveat;
-    font-size: 18px;
+    font-size: 24px;
 
     margin: 0;
     padding: 0;
@@ -24,6 +24,7 @@
 
 body {
     background-color: var(--color6);
+    color: var(--color7);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -48,7 +49,7 @@ body {
 } 
 
 #name {
-    font-size: 20px;
+    font-size: 28px;
     color: var(--color5);
 }
 
@@ -58,8 +59,28 @@ body {
     width: 80%;
     height: auto;
     justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 hr {
-    border-top: .1rem solid var(--color4);
+    border-top: .1rem solid var(--color5);
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.left-image {
+    margin-right: 1rem;
+}
+
+.left-image img,
+.right-image img {
+    border: .05rem solid var(--color5);
+}
+
+.right-image {
+    margin-left: 1rem;
 }

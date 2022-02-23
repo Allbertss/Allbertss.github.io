@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/scrollbar.css">
+        <link rel="stylesheet" href="css/price-table.css">
+        <link rel="stylesheet" href="css/masters.css">
+        <link rel="stylesheet" href="css/about-us.css">
         <title>FLAME Barber shop</title>
     </head>
 
@@ -19,7 +22,7 @@
             <nav>
                 <ul>
                     <li><a href="#home"><span id="name">FLAME</span> <span id="rest-name">Barber shop</span></a></li>
-                    <li><a href="#pricelist">Kainos</a></li>
+                    <li><a href=".price-table">Kainos</a></li>
                     <li><a href="#masters">Meistrai</a></li>
                     <li><a href="#about-us">Apie mus</a></li>
                 </ul>
@@ -37,20 +40,106 @@
 
         <hr>
 
-        <div id="pricelist" class="container">
-            <img src="images/interior2.jpg">
+        <table class="price-table" class="container">
+            <tr>
+                <th>Paslauga</th>
+                <th>Trukmė</th>
+                <th>Kaina nuo</th>
+            </tr>
+            <tr>
+                <td>Vyriškas kirpimas</td>
+                <td>45 min - 1 val.</td>
+                <td class="price">15&euro;</td>
+            </tr>
+            <tr>
+                <td>Ilgų plaukų kirpimas</td>
+                <td>1 val.</td>
+                <td class="price">25&euro;</td>
+            </tr>
+            <tr>
+                <td>Plaukai + barzda + veido pilingas</td>
+                <td>1.5 val.</td>
+                <td class="price">35&euro;</td>
+            </tr>
+            <tr>
+                <td>Vyriškas kirpimas + veido pilingas</td>
+                <td>1 val. 10 min.</td>
+                <td class="price">20&euro;</td>
+            </tr>
+            <tr>
+                <td>Tėvas + sūnus</td>
+                <td>2 val. 20 min.</td>
+                <td class="price">40&euro;</td>
+            </tr>
+            <tr>
+                <td>Plaukų ir barzdos tonavimas vyrams</td>
+                <td>20 min.</td>
+                <td class="price">15&euro;</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <div class="container">
+            <div class="left-image">
+                <img class="responsive-image" src="images/interior-v1.jpg">
+            </div>
+
+            <div class="right-image">
+                <img class="responsive-image" src="images/interior-v2.jpg">
+            </div>
         </div>
 
         <hr>
 
         <div id="masters" class="container">
-            <img src="images/interior3.jpg">
+            <div>
+                <img src="images/masters/master1.jpg">
+                <p class="fullname">Vardas Pavarde</p>
+                <!-- <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+            </div>
+            <div>
+                <img src="images/masters/master2.jpg">
+                <p class="fullname">Vardas Pavarde</p>
+                <!-- <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+            </div>
         </div>
 
         <hr>
 
+        <div class="container">
+            <div>
+                <img id="about-us-image" class="responsive-image" src="images/interior-f1.jpg">
+            </div>
+        </div>
+
+        <hr>
+
+
         <div id="about-us" class="container">
-            <img src="images/interior3.jpg">
+            <!-- <h2>Apie mus</h2> -->
+
+            <div id="outside-image">
+                <img src="images/outside.jpg">
+            </div>
+
+            <div id="info">
+                <p>Mus rasite adresu: <strong>Kalvarijų g. 2A, Vilnius</strong></p>
+                <p>Telefono numeris: <strong>+370 670 00616</strong></p>
+                <p>El. paštas: <strong>flamebarbers@gmail.com</strong></p>
+                <ul id="working-hours">Darbo laikas:</ul>
+                <li>Pirmadienis: <strong>10:00 - 20:00</strong></li>
+                <li>Antradienis: <strong>10:00 - 20:00</strong></li>
+                <li>Trečiadienis: <strong>10:00 - 20:00</strong></li>
+                <li>Ketvirtadienis: <strong>10:00 - 20:00</strong></li>
+                <li>Penktadienis: <strong>10:00 - 20:00</strong></li>
+                <li>Šeštadienis: <strong>10:00 - 20:00</strong></li>
+                <li>Sekmadienis: <strong>Nedirbame</strong></li>
+            </div>
+
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.953468023317!2d25.27816781620632!3d54.69284648070152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd9404e60fa3f5%3A0x50e46e00a5749908!2sKalvarij%C5%B3%20g.%202A%2C%20Vilnius%2009309!5e0!3m2!1sen!2slt!4v1645380810456!5m2!1sen!2slt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
 
         <!-- footer -->

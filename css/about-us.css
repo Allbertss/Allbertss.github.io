@@ -1,0 +1,22 @@
+/* #about-us h2 {
+    
+} */
+
+#outside-image img {
+    width: 500px;
+}
+
+#info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#info li {
+    list-style-type: none;
+    text-align: right;
+}
+
+#working-hours {
+    text-align: left;
+    font-weight: bold;
+}

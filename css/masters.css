@@ -1,0 +1,15 @@
+#masters {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+
+/* #masters div img {
+    border: 2px solid var(--color5);
+} */
+
+p.fullname {
+    font-size: 1.5rem;
+    color: var(--color2);
+    text-align: center;
+}
