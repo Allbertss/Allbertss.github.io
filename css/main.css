@@ -22,7 +22,7 @@
 
 * {
     font-family: Caveat;
-    font-size: 10px;
+    font-size: 18px;
 
     margin: 0;
     padding: 0;
@@ -53,19 +53,6 @@ body {
 
 hr {
     border-top: .1rem solid var(--color5);
-}
-
-.left-image {
-    margin-right: 1rem;
-}
-
-.left-image img,
-.right-image img {
-    border: .05rem solid var(--color4);
-}
-
-.right-image {
-    margin-left: 1rem;
 }
 
 .border {

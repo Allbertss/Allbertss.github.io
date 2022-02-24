@@ -12,7 +12,7 @@ nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 1em;
+    gap: .5rem;
 }
 
 nav ul li {
