@@ -1,6 +1,12 @@
 @font-face {
     font-family: Caveat;
-    src: url("../fonts/Caveat.ttf");
+    src: url("../fonts/Caveat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url("../fonts/Caveat-Bold.ttf");
+    font-weight: bold;
 }
 
 :root {
@@ -64,7 +70,7 @@ hr {
 }
 
 .responsive-image {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 

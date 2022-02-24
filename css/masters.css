@@ -1,10 +1,23 @@
 #masters {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    justify-items: center;
 }
 
+#masters div img {
+    border: .15rem solid var(--color4);
+}
+
+.master {
+    width: 13rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+}
 
 /* #masters div img {
     border: 2px solid var(--color5);
@@ -13,5 +26,9 @@
 p.fullname {
     font-size: 1.5rem;
     color: var(--color2);
+    text-align: center;
+}
+
+p.info {
     text-align: center;
 }

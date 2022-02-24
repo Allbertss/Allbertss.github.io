@@ -19,3 +19,7 @@
 .price-table th, td {
     padding-right: 3rem;
 }
+
+.price-table td {
+    font-size: 2rem;
+}
