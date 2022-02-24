@@ -7,9 +7,9 @@
     justify-items: center;
 }
 
-/* #masters div img {
-    
-} */
+#masters div img {
+    border: .15rem solid var(--color4);
+}
 
 .master {
     width: 13rem;

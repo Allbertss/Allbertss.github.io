@@ -1,0 +1,37 @@
+#home {
+    margin-top: 2.5rem;
+}
+
+.gallery {
+    display: none;
+    position: relative;
+}
+
+.arrow-button {
+    cursor: pointer;
+    width: auto;
+    /* padding: 1rem; */
+    color: var(--color7);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0 .3rem .3rem 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.previous {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+}
+
+.previous:hover,
+.next:hover {
+    opacity: .77;
+}

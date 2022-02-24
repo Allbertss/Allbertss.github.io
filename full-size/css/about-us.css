@@ -1,10 +1,9 @@
-.container-block {
-    display: block;
-    text-align: center;
-}
+/* #about-us h2 {
+    
+} */
 
 #outside-image img {
-    width: 80%;
+    width: 500px;
     height: auto;
 }
 

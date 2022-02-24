@@ -22,11 +22,10 @@
 
 * {
     font-family: Caveat;
-    font-size: 16px;
+    font-size: 24px;
 
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 }
 
@@ -35,14 +34,33 @@ body {
     color: var(--color7);
 }
 
+/* @media only screen and (max-width: 1000px) {
+    * {
+        font-size: 16px;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav ul li {
+        margin: 0;
+        padding: .01rem;
+    }
+
+    #rest-name {
+        display: none;
+    }
+}  */
+
 .container {
     display: flex;
-    justify-content: center;
     margin: auto;
-
     width: 80%;
     height: auto;
-
+    justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -51,15 +69,11 @@ hr {
     border-top: .1rem solid var(--color5);
 }
 
-.border {
-    border: .15rem solid var(--color4);
+.responsive-image {
+    width: 80%;
+    height: auto;
 }
 
-img {
-    width: 100%;
-}
-
-/* double image */
 .left-image {
     margin-right: 1rem;
 }
