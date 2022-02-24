@@ -1,13 +1,3 @@
-.container-block {
-    display: block;
-    text-align: center;
-}
-
-#outside-image img {
-    width: 80%;
-    height: auto;
-}
-
 #info {
     margin-left: 2rem;
     margin-right: 2rem;

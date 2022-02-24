@@ -22,11 +22,10 @@
 
 * {
     font-family: Caveat;
-    font-size: 8px;
+    font-size: 10px;
 
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 }
 
@@ -37,12 +36,17 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
     margin: auto;
-
     width: 80%;
     height: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.container-mobile {
+    display: grid;
+    justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -51,24 +55,23 @@ hr {
     border-top: .1rem solid var(--color5);
 }
 
-.border {
-    border: .15rem solid var(--color4);
-}
-
-img {
-    width: 100%;
-}
-
-/* double image */
 .left-image {
     margin-right: 1rem;
 }
 
 .left-image img,
 .right-image img {
-    border: .05rem solid var(--color5);
+    border: .05rem solid var(--color4);
 }
 
 .right-image {
     margin-left: 1rem;
+}
+
+.border {
+    border: .15rem solid var(--color4);
+}
+
+img {
+    width: 100%;
 }
