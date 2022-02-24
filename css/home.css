@@ -20,14 +20,18 @@
 
 .previous {
     position: absolute;
-    top: 50%;
-    left: 1rem;
+    top: 45%;
+    width: 10%;
+    height: 35%;
+    left: .5rem;
 }
 
 .next {
     position: absolute;
-    top: 50%;
-    right: 1rem;
+    top: 45%;
+    width: 10%;
+    height: 35%;
+    right: .5rem;
 }
 
 .previous:hover,
