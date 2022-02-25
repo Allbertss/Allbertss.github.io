@@ -59,3 +59,17 @@ function showImage2(value) {
 
     gallery2[galleryIndex2 - 1].style.display = 'block';
 }
+
+// modal
+// let modal;;
+// let button = $('button');
+
+// function onLoad() {
+//     modal = document.getElementsByClassName('lang-modal')[0]
+
+//     modal.style.display = 'block';
+// }
+
+// button.onclick = function() {
+//     modal.style.display = 'none';
+// }
