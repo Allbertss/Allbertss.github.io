@@ -72,10 +72,6 @@ img {
     scrollbar-width: none; /* Firefox */
 }
 
-#rest-name {
-    display: none;
-}
-
 .map-tablet {
     display: none;
 }
@@ -90,11 +86,19 @@ img {
     * {
         font-size: 18px;
     }
+
+    #rest-name {
+        display: none;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 999px) {
     * {
         font-size: 22px;
+    }
+
+    #rest-name {
+        display: none;
     }
 }
 
