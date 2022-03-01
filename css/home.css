@@ -23,7 +23,7 @@
     top: 45%;
     width: 10%;
     height: 35%;
-    left: .5rem;
+    left: 1rem;
 }
 
 .next {
@@ -31,7 +31,9 @@
     top: 45%;
     width: 10%;
     height: 35%;
-    right: .5rem;
+    right: 1rem;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
 }
 
 .previous:hover,

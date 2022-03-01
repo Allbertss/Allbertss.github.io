@@ -38,28 +38,6 @@ function showImage(value) {
     gallery[galleryIndex - 1].style.display = 'block';
 }
 
-// about-us gallary
-let galleryIndex2 = 1;
-showImage2(galleryIndex2);
-function changeIndex2(value) {
-    showImage2(galleryIndex2 += value);
-}
-
-function showImage2(value) {
-    let gallery2 = $('.gallery2');
-
-    if (value > gallery2.length)
-        galleryIndex2 = 1;
-
-    if (value < 1)
-        galleryIndex2 = gallery2.length;
-
-    for (let i = 0; i < gallery2.length; i++)
-        gallery2[i].style.display = 'none';
-
-    gallery2[galleryIndex2 - 1].style.display = 'block';
-}
-
 // modal
 // let modal;;
 // let button = $('button');
