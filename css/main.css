@@ -76,6 +76,19 @@ img {
     display: none;
 }
 
+.about-us-container {
+    margin: auto;
+    width: 80%;
+}
+
+#rest-name {
+    display: none;
+}
+
+#vertical-img {
+    width: 60%;
+}
+
 /* todo */
 /* nav full name */
 /* masters in 1 line */
@@ -129,5 +142,14 @@ img {
 
     .map-tablet {
         display: block;
+    }
+
+    .about-us-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .au {
+        width: 30%;
     }
 }
