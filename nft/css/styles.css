@@ -17,17 +17,23 @@
     --color5: #F2C791;
 }
 
+html {
+    font-size: 1rem;
+}
+
 * {
     font-family: Inconsolata;
     font-size: 16px;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: var(--color1);
+    background-image: url("../images/sky-min.png");
+    background-repeat: no-repeat;
+    background-size: auto 0 contain;
+    background-color: #C29D4D;
 }
 
 .nav-link {
@@ -50,45 +56,111 @@ h1 {
     fill: currentColor;
 }
 
+
 /* progress-bar */
 #progress-container {
     position: fixed;
     width: 100%;
-    height: .2rem;
+    height: .3rem;
     background-color: red;
 }
 
 #progress-bar {
-    height: .2rem;
+    height: .3rem;
     width: 0%;
     background-color: blue;
 }
 
-/* hide scrollbar */
-.scrollbar-hidden::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
-.scrollbar-hidden {
-    -ms-overflow-style: none;
-    scrollbar-width: none; /* Firefox */
+.test2 {
+    background-image: url("../images/grass.png");
+    background-size: cover;
 }
 
-::-webkit-scrollbar {
-    width: .0001rem;
-    height: .0001rem;
+
+/* .scrolling-wrapper {
+	overflow-x: auto;
+} */
+
+
+/* .scrolling-wrapper {
+    overflow-x: hidden;
+} */
+
+#cc {
+    overflow: hidden;
+    
 }
 
-::-webkit-scrollbar-track {
-    background: var(--color1);
-    border-radius: 2rem;
+#infinite-scroll-container {
+    animation: slide 15s linear infinite;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: var(--color4);
-    border-radius: 2rem;
+#infinite-scroll-container:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: var(--color3);
+.showcase-image:hover {
+    opacity: 0.77;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transform: scale(1.015);
+    -moz-transform: scale(1.015);
+    -ms-transform: scale(1.015);
+    -o-transform: scale(1.015);
+    transform: scale(1.015);
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-75%, 0, 0);
+    }
+}
+
+
+/* cards */
+.card:hover {
+    opacity: 0.87;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.card-img-top:hover {
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    /* margin-top: 1rem; */
+}
+
+
+/* logo animation */
+
+#hte:hover {
+    opacity: 0.87;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, .75);
+    }
 }
