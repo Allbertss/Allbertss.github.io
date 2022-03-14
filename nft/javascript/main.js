@@ -15,5 +15,5 @@ $(window).scroll(function(){
     document.getElementById("progress-bar").style.width = scrolled + "%";
 });
 
-// hover (touch) for mobile
-document.addEventListener("touchstart", function() {}, true);
+// hover (touch) for mobile need testing
+// document.addEventListener("touchstart", function() {}, true);

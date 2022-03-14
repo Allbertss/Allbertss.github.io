@@ -1,13 +1,13 @@
 @font-face {
-    font-family: Inconsolata;
-    src: url("../fonts/Inconsolata-Regular.ttf");
+    font-family: PatrickHand;
+    src: url("../fonts/PatrickHand-Regular.ttf");
 }
 
-@font-face {
+/* @font-face {
     font-family: Inconsolata;
     src: url("../fonts/Inconsolata-Bold.ttf");
     font-weight: bold;
-}
+} */
 
 :root {
     --color1: #BF959D;
@@ -18,8 +18,9 @@
 }
 
 * {
-    font-family: Inconsolata;
-    font-size: 20px;
+    font-family: PatrickHand;
+    font-size: 28px;
+    text-shadow: .025rem .025rem #bdbdbd;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
