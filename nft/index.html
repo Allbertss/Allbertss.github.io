@@ -3,15 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+          href="css/styles.css">
 
-    <link rel="icon" href="favicon.jpg" type="image/svg+xml">
+    <link rel="icon"
+          href="favicon.jpg"
+          type="image/svg+xml">
     <title>NFT</title>
 </head>
 
@@ -21,55 +31,101 @@
         <div id="progress-bar"></div>
     </div>
 
-    <svg id="wave" class="d-none d-xl-block" style="transform:rotate(180deg); transition: 0.3s; position: fixed; z-index: 1" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(0, 0, 0, .75)" offset="0%"></stop><stop stop-color="rgba(0, 0, 0, .75)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,60L60,56C120,52,240,44,360,44C480,44,600,52,720,58C840,64,960,68,1080,60C1200,52,1320,32,1440,32C1560,32,1680,52,1800,56C1920,60,2040,48,2160,50C2280,52,2400,68,2520,74C2640,80,2760,76,2880,66C3000,56,3120,40,3240,40C3360,40,3480,56,3600,70C3720,84,3840,96,3960,84C4080,72,4200,36,4320,28C4440,20,4560,40,4680,48C4800,56,4920,52,5040,42C5160,32,5280,16,5400,20C5520,24,5640,48,5760,50C5880,52,6000,32,6120,34C6240,36,6360,60,6480,68C6600,76,6720,68,6840,68C6960,68,7080,76,7200,80C7320,84,7440,84,7560,88C7680,92,7800,100,7920,90C8040,80,8160,52,8280,38C8400,24,8520,24,8580,24L8640,24L8640,120L8580,120C8520,120,8400,120,8280,120C8160,120,8040,120,7920,120C7800,120,7680,120,7560,120C7440,120,7320,120,7200,120C7080,120,6960,120,6840,120C6720,120,6600,120,6480,120C6360,120,6240,120,6120,120C6000,120,5880,120,5760,120C5640,120,5520,120,5400,120C5280,120,5160,120,5040,120C4920,120,4800,120,4680,120C4560,120,4440,120,4320,120C4200,120,4080,120,3960,120C3840,120,3720,120,3600,120C3480,120,3360,120,3240,120C3120,120,3000,120,2880,120C2760,120,2640,120,2520,120C2400,120,2280,120,2160,120C2040,120,1920,120,1800,120C1680,120,1560,120,1440,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z"></path></svg>
+    <svg id="wave"
+         class="d-none d-xl-block"
+         style="transform:rotate(180deg); transition: 0.3s; position: fixed; z-index: 1"
+         viewBox="0 0 1440 120"
+         version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0"
+                            x1="0"
+                            x2="0"
+                            y1="1"
+                            y2="0">
+                <stop stop-color="rgba(0, 0, 0, .75)"
+                      offset="0%"></stop>
+                <stop stop-color="rgba(0, 0, 0, .75)"
+                      offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1"
+              fill="url(#sw-gradient-0)"
+              d="M0,60L60,56C120,52,240,44,360,44C480,44,600,52,720,58C840,64,960,68,1080,60C1200,52,1320,32,1440,32C1560,32,1680,52,1800,56C1920,60,2040,48,2160,50C2280,52,2400,68,2520,74C2640,80,2760,76,2880,66C3000,56,3120,40,3240,40C3360,40,3480,56,3600,70C3720,84,3840,96,3960,84C4080,72,4200,36,4320,28C4440,20,4560,40,4680,48C4800,56,4920,52,5040,42C5160,32,5280,16,5400,20C5520,24,5640,48,5760,50C5880,52,6000,32,6120,34C6240,36,6360,60,6480,68C6600,76,6720,68,6840,68C6960,68,7080,76,7200,80C7320,84,7440,84,7560,88C7680,92,7800,100,7920,90C8040,80,8160,52,8280,38C8400,24,8520,24,8580,24L8640,24L8640,120L8580,120C8520,120,8400,120,8280,120C8160,120,8040,120,7920,120C7800,120,7680,120,7560,120C7440,120,7320,120,7200,120C7080,120,6960,120,6840,120C6720,120,6600,120,6480,120C6360,120,6240,120,6120,120C6000,120,5880,120,5760,120C5640,120,5520,120,5400,120C5280,120,5160,120,5040,120C4920,120,4800,120,4680,120C4560,120,4440,120,4320,120C4200,120,4080,120,3960,120C3840,120,3720,120,3600,120C3480,120,3360,120,3240,120C3120,120,3000,120,2880,120C2760,120,2640,120,2520,120C2400,120,2280,120,2160,120C2040,120,1920,120,1800,120C1680,120,1560,120,1440,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z">
+        </path>
+    </svg>
 
     <nav class="navbar opacity-75 sticky-top navbar-expand-xl">
         <div class="container">
             <div class="container justify-content-center justify-content-xl-start d-flex d-xl-flex">
-                <a class="navbar-brand nav-link my-auto p-0" href="#" onclick="window.location.reload(true);">
-                    <img id="logo" style="width: 64px; height: 64px;" src="images/logo.jpg">
+                <a class="navbar-brand nav-link my-auto p-0"
+                   href="#"
+                   onclick="window.location.reload(true);">
+                    <img id="logo"
+                         style="width: 64px; height: 64px;"
+                         src="images/logo.jpg">
                 </a>
 
-                <a class="nav-link my-auto px-3" href="https://t.co/nCWHBF2Tqx" target="_blank">
-                    <svg width="32" height="32" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
-                        </svg>
+                <a class="nav-link my-auto px-3"
+                   href="https://t.co/nCWHBF2Tqx"
+                   target="_blank">
+                    <svg width="32"
+                         height="32"
+                         fill="currentColor"
+                         class="bi bi-discord"
+                         viewBox="0 0 16 16">
+                        <path
+                              d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                    </svg>
                 </a>
 
-                <a class="nav-link my-auto px-3" href="https://twitter.com/GenieGhosts" target="_blank">
-                    <svg width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                        </svg>
+                <a class="nav-link my-auto px-3"
+                   href="https://twitter.com/GenieGhosts"
+                   target="_blank">
+                    <svg width="32"
+                         height="32"
+                         fill="currentColor"
+                         class="bi bi-twitter"
+                         viewBox="0 0 16 16">
+                        <path
+                              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
                 </a>
             </div>
 
             <div class="container justify-content-xl-end d-none d-xl-flex text-center">
-                <a class="nav-link py-0" href="#about-us">
-                        ABOUT US
-                    </a>
+                <a class="nav-link py-0"
+                   href="#about-us">
+                    ABOUT US
+                </a>
 
-                <a class="nav-link py-0" href="#roadmap">
-                        ROADMAP
-                    </a>
+                <a class="nav-link py-0"
+                   href="#roadmap">
+                    ROADMAP
+                </a>
 
-                <a class="nav-link py-0" href="#showcase">
-                        SHOWCASE
-                    </a>
+                <a class="nav-link py-0"
+                   href="#showcase">
+                    SHOWCASE
+                </a>
 
-                <a class="nav-link py-0" href="#team-members">
-                        TEAM MEMBERS
-                    </a>
+                <a class="nav-link py-0"
+                   href="#team-members">
+                    TEAM MEMBERS
+                </a>
 
-                <a class="nav-link py-0" href="#faq">
-                        FAQ
-                    </a>
+                <a class="nav-link py-0"
+                   href="#faq">
+                    FAQ
+                </a>
             </div>
         </div>
     </nav>
 
     <div class="test">
         <!-- about us -->
-        <div id="about-us" class="container my-5">
+        <div id="about-us"
+             class="container my-5">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col">
                     <!-- <img class="img-fluid" src="images/about-us.jpg"> -->
@@ -78,110 +134,181 @@
                 <div class="col">
                     <h1 class="py-3">ABOUT US</h1>
 
-                    <p>Someone rubbed lamps, broke bottles, opened mysterious books and genies have broken out into the wild. Each ghost is entirely hand-drawn with 120+ different traits. So each genie ghost looks unique in its own way. Each different lamp
-                        has different rewards such as airdrops of special NFTs, airdrops of ADA, different token distribution, more on that you can find in our roadmap!</p>
-                    <p>There&#39;s 6000 Genie Ghosts out there in Cardano blockchain with mint price still TBA! And our genies will be freed late spring or early summer!</p>
-                    <p>We are fully committed to work on this project for a long time, with making new ideas and satisfying our holders!</p>
+                    <p>Someone rubbed lamps, broke bottles, opened mysterious books and genies have broken out into the
+                        wild. Each ghost is entirely hand-drawn with 120+ different traits. So each genie ghost looks
+                        unique in its own way. Each different
+                        lamp has different rewards such as airdrops of special NFTs, airdrops of ADA, different token
+                        distribution, more on that you can find in our roadmap!</p>
+                    <p>There&#39;s 6000 Genie Ghosts out there in Cardano blockchain with mint price still TBA! And our
+                        genies will be freed late spring or early summer!</p>
+                    <p>We are fully committed to work on this project for a long time, with making new ideas and
+                        satisfying our holders!</p>
                 </div>
 
             </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,117.3C384,107,480,85,576,101.3C672,117,768,171,864,170.7C960,171,1056,117,1152,117.3C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,128L48,128C96,128,192,128,288,117.3C384,107,480,85,576,101.3C672,117,768,171,864,170.7C960,171,1056,117,1152,117.3C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </div>
-    
+
     <div class="img-fluid">
         <div class="row row-cols-3">
-            <img class="col d-none d-xl-flex" src="images/transparent/1-removebg-preview.png">
-            <img class="col d-none d-xl-flex" src="images/transparent/2-removebg-preview.png">
-            <img class="col d-none d-xl-flex" src="images/transparent/3-removebg-preview.png">
+            <img class="col d-none d-xl-flex"
+                 src="images/transparent/1-removebg-preview.png">
+            <img class="col d-none d-xl-flex"
+                 src="images/transparent/2-removebg-preview.png">
+            <img class="col d-none d-xl-flex"
+                 src="images/transparent/3-removebg-preview.png">
         </div>
     </div>
 
 
     <div class="test2">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,181.3C384,160,480,96,576,80C672,64,768,96,864,122.7C960,149,1056,171,1152,170.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,160L48,170.7C96,181,192,203,288,181.3C384,160,480,96,576,80C672,64,768,96,864,122.7C960,149,1056,171,1152,170.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
         <!-- roadmap -->
         <!-- hover on coffin higlich coffin text and make it bigger .05? if clicked scroll to corespondent stage -->
-        <div id="roadmap" class="container my-5">
+        <div id="roadmap"
+             class="container my-5">
             <h1 class="py-3">ROADMAP</h1>
 
             <div class="row">
-                <img class="img-fluid py-3" src="images/coffin.png">
+                <img class="img-fluid py-3"
+                     src="images/coffin.png">
                 <div class="col">
                     <ul>
-                        <li class="py-3">Stage 1 - We will release the 6000 genie ghosts early spring or early summer.</li>
-                        <li class="py-3">Stage 2 - Also right after minting is finished all winners of giveaways and airdrops will receive their price and keep the winners happy!</li>
-                        <li class="py-3">Stage 3 - After minting is finished and everything is calming down we will be launching our own token! Which you will be able to get by staking, this will encourage people to hold this and keep the floor healthy. Also since we
-                            are Genies and we were talking about lamps, each lamp will give you different amount of tokens. As for example (lamp - toaster will give you 20 tokens each epoch, and a book will give you 30 tokens each epoch). And we want
-                            to provide a lot of real-life utility. What we have in mind for now - you can spend your tokens to buy in into a raffle for a chance to win tickets to real-life concerts and many more real-life events! To where the tickets
-                            will be available will depend on our community with suggestions since we think about everyone around the world! Besides tickets - buyable merch with tokens. And we have way more ideas that you will find in our whitepaper very
-                            soon!
+                        <li class="py-3">Stage 1 - We will release the 6000 genie ghosts early spring or early summer.
                         </li>
-                        <li class="py-3">Stage 4 - After more effective plans on keeping the floor healthy, we are planning to launch 3D Genie Ghosts (season 2) - holders that won&#39;t list our season 1 below the mint price, will get whitelisted for seasons 2 launch!
-                            Also we won&#39;t forget our OGs and active members! For those there is waiting a special surprise!</li>
+                        <li class="py-3">Stage 2 - Also right after minting is finished all winners of giveaways and
+                            airdrops will receive their price and keep the winners happy!</li>
+                        <li class="py-3">Stage 3 - After minting is finished and everything is calming down we will be
+                            launching our own token! Which you will be able to get by staking, this will encourage
+                            people to hold this and keep the floor healthy. Also since
+                            we are Genies and we were talking about lamps, each lamp will give you different amount of
+                            tokens. As for example (lamp - toaster will give you 20 tokens each epoch, and a book will
+                            give you 30 tokens each epoch). And we
+                            want to provide a lot of real-life utility. What we have in mind for now - you can spend
+                            your tokens to buy in into a raffle for a chance to win tickets to real-life concerts and
+                            many more real-life events! To where the
+                            tickets will be available will depend on our community with suggestions since we think about
+                            everyone around the world! Besides tickets - buyable merch with tokens. And we have way more
+                            ideas that you will find in our whitepaper
+                            very soon!
+                        </li>
+                        <li class="py-3">Stage 4 - After more effective plans on keeping the floor healthy, we are
+                            planning to launch 3D Genie Ghosts (season 2) - holders that won&#39;t list our season 1
+                            below the mint price, will get whitelisted for seasons 2 launch!
+                            Also we won&#39;t forget our OGs and active members! For those there is waiting a special
+                            surprise!</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- <hr> -->
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,197.3C384,203,480,149,576,138.7C672,128,768,160,864,192C960,224,1056,256,1152,234.7C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,256L48,218.7C96,181,192,107,288,112C384,117,480,203,576,202.7C672,203,768,117,864,96C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,64L48,96C96,128,192,192,288,197.3C384,203,480,149,576,138.7C672,128,768,160,864,192C960,224,1056,256,1152,234.7C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,256L48,218.7C96,181,192,107,288,112C384,117,480,203,576,202.7C672,203,768,117,864,96C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
 
         <!-- showcase -->
-        <div id="showcase" class="container">
+        <div id="showcase"
+             class="container">
             <h1 class="py-3">SHOWCASE</h1>
 
-            <div id="cc" class="container-fluid border">
-                <div id="infinite-scroll-container" class="scrolling-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 flex-row flex-nowrap py-0">
+            <div id="cc"
+                 class="container-fluid border">
+                <div id="infinite-scroll-container"
+                     class="scrolling-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 flex-row flex-nowrap py-0">
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/1.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/1.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/2.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/2.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/3.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/3.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/4.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/4.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/5.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/5.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/6.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/6.jpg">
                     </div>
 
                     <div class="col">
-                        <img class="img-fluid border showcase-image" src="images/showcase/7.jpg">
+                        <img class="img-fluid border showcase-image"
+                             src="images/showcase/7.jpg">
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,58.7C384,43,480,85,576,96C672,107,768,85,864,96C960,107,1056,149,1152,170.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,106.7C384,139,480,181,576,170.7C672,160,768,96,864,58.7C960,21,1056,11,1152,58.7C1248,107,1344,213,1392,266.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,224L48,186.7C96,149,192,75,288,58.7C384,43,480,85,576,96C672,107,768,85,864,96C960,107,1056,149,1152,170.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,32L48,42.7C96,53,192,75,288,106.7C384,139,480,181,576,170.7C672,160,768,96,864,58.7C960,21,1056,11,1152,58.7C1248,107,1344,213,1392,266.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
 
         <!-- <hr> -->
         <!-- team members -->
         <!-- hover cards -->
-        <div id="team-members" class="container">
+        <div id="team-members"
+             class="container">
             <h1 class="py-3">TEAM MEMBERS</h1>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
 
                 <div class="col p-3 text-center">
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/team_members/1.jpg">
+                        <img class="card-img-top img-fluid"
+                             src="images/team_members/1.jpg">
                         <div class="card-body">
                             <h5 class="card-title">994</h5>
                             <p class="card-text">Marketing specialist</p>
@@ -191,7 +318,8 @@
 
                 <div class="col p-3 text-center">
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/team_members/2.jpg">
+                        <img class="card-img-top img-fluid"
+                             src="images/team_members/2.jpg">
                         <div class="card-body">
                             <h5 class="card-title">skrr</h5>
                             <p class="card-text">Artist, NFT enthusiast</p>
@@ -201,7 +329,8 @@
 
                 <div class="col p-3 text-center">
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/team_members/3.jpg">
+                        <img class="card-img-top img-fluid"
+                             src="images/team_members/3.jpg">
                         <div class="card-body">
                             <h5 class="card-title">GenieGhosts</h5>
                             <p class="card-text">Founder of GenieGhosts</p>
@@ -211,7 +340,8 @@
 
                 <div class="col p-3 text-center">
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/team_members/4.jpg">
+                        <img class="card-img-top img-fluid"
+                             src="images/team_members/4.jpg">
                         <div class="card-body">
                             <h5 class="card-title">licksick</h5>
                             <p class="card-text">Developer</p>
@@ -223,45 +353,83 @@
         </div>
 
         <!-- <hr> -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C29D4D" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,261.3C384,245,480,171,576,160C672,149,768,203,864,202.7C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 1440 320">
+            <path fill="#C29D4D"
+                  fill-opacity="1"
+                  d="M0,192L48,213.3C96,235,192,277,288,261.3C384,245,480,171,576,160C672,149,768,203,864,202.7C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </div>
     <!-- FAQ -->
-    <div id="faq" class="container">
+    <div id="faq"
+         class="container">
         <h1>FAQ</h1>
 
-        <div class="accordion" id="accordionExample">
+        <div class="accordion"
+             id="accordionExample">
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Is there a whitelist?
-                        </button>
+                <h2 class="accordion-header"
+                    id="headingOne">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne">
+                        Is there a whitelist?
+                    </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="headingOne"
+                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Yes.</strong> People who came first into our discord are given OG role that will count as a whitelist and more special things in future. Aswell theres regular whitelist for our season 1 - you can get it from our collabs,
+                        <strong>Yes.</strong> People who came first into our discord are given OG role that will count
+                        as a whitelist and more special things in future. Aswell theres regular whitelist for our season
+                        1 - you can get it from our collabs,
                         <code> giveaways </code>and many other ways.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            When is the first mint?
-                        </button>
+                <h2 class="accordion-header"
+                    id="headingTwo">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo">
+                        When is the first mint?
+                    </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div id="collapseTwo"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="headingTwo"
+                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>As for now it is planned to be late spring or early summer.</strong> As we close in towards those dates we will announce the exact date.
+                        <strong>As for now it is planned to be late spring or early summer.</strong> As we close in
+                        towards those dates we will announce the exact date.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What is the supply of Genie Ghosts?
-                        </button>
+                <h2 class="accordion-header"
+                    id="headingThree">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree">
+                        What is the supply of Genie Ghosts?
+                    </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div id="collapseThree"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="headingThree"
+                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         There will be <strong>6000</strong> Genie Ghosts.
                     </div>
@@ -269,12 +437,21 @@
             </div>
 
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What is the mint price?
-                            </button>
+                <h2 class="accordion-header"
+                    id="headingFour">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour">
+                        What is the mint price?
+                    </button>
                 </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div id="collapseFour"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="headingFour"
+                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         The mint price is not decided yet. It will be decided when we close in towards minting date.
                     </div>
@@ -282,14 +459,22 @@
             </div>
 
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Which wallets can I use to buy a Genie Ghost?
-                            </button>
+                <h2 class="accordion-header"
+                    id="headingFive">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive"
+                            aria-expanded="false"
+                            aria-controls="collapseFive"> Which wallets can I use to buy a Genie Ghost? </button>
                 </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div id="collapseFive"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="headingFive"
+                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        When you are minting only send your ADA via CC Wallet, Nami, Daedalus, AdaLite or Yoroi. If you send your ada from any CEX like Coinbase, Binance your ADA will be lost.
+                        When you are minting only send your ADA via CC Wallet, Nami, Daedalus, AdaLite or Yoroi. If you
+                        send your ada from any CEX like Coinbase, Binance your ADA will be lost.
                     </div>
                 </div>
             </div>
@@ -299,28 +484,46 @@
     <!-- footer -->
     <div class="container pt-0">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <img id="logo" class="img-fluid d-none d-sm-flex" src="images/logo.jpg">
-                <span class="text-muted mx-3">&copy;2022 GenieGhosts</span>
-            </div>
-
+            <div class="col-md-4 d-flex align-items-center"> <img id="logo"
+                     class="img-fluid d-none d-sm-flex"
+                     src="images/logo.jpg"> <span class="text-muted mx-3">&copy;2022 GenieGhosts</span> </div>
             <div class="px-0 mx-0">
-                <a href="https://t.co/nCWHBF2Tqx" target="_blank">
-                    <svg width="32" height="32" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
-                        </svg>
-                </a>
-
-                <a href="https://twitter.com/GenieGhosts" target="_blank">
-                    <svg width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                        </svg>
-                </a>
+                <a href="https://t.co/nCWHBF2Tqx"
+                   target="_blank"> <svg width="32"
+                         height="32"
+                         fill="currentColor"
+                         class="bi bi-discord"
+                         viewBox="0 0 16 16">
+                        <path
+                              d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                    </svg> </a>
+                <a href="https://twitter.com/GenieGhosts"
+                   target="_blank"> <svg width="32"
+                         height="32"
+                         fill="currentColor"
+                         class="bi bi-twitter"
+                         viewBox="0 0 16 16">
+                        <path
+                              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg> </a>
             </div>
         </footer>
     </div>
 
     <script src="/javascript/main.js"></script>
 </body>
+
+</html>
+
+</html>
+
+
+</html>
+
+</html>
+
+</html>
+
+</html>
 
 </html>

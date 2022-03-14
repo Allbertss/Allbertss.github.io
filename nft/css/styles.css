@@ -80,23 +80,9 @@ h1 {
     background-size: repeat;
 }
 
-
-/* .scrolling-wrapper {
-	overflow-x: auto;
-} */
-
-
-/* .scrolling-wrapper {
-    overflow-x: hidden;
-} */
-
 #cc {
     overflow: hidden;
     
-}
-
-#infinite-scroll-container {
-    animation: slide 15s linear infinite;
 }
 
 #infinite-scroll-container:hover {
@@ -114,7 +100,57 @@ h1 {
     -ms-transform: scale(1.015);
     -o-transform: scale(1.015);
     transform: scale(1.015);
+}
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #infinite-scroll-container {
+        animation: slide-lg 20s linear infinite;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #infinite-scroll-container {
+        animation: slide-md 25s linear infinite;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #infinite-scroll-container {
+        animation: slide-sm 30s linear infinite;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #infinite-scroll-container {
+        animation: slide 15s linear infinite;
+    }
+}
+
+@keyframes slide-sm {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-600%, 0, 0);
+    }
+}
+
+@keyframes slide-md {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-250%, 0, 0);
+    }
+}
+
+@keyframes slide-lg {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-135%, 0, 0);
+    }
 }
 
 @keyframes slide {
@@ -125,7 +161,6 @@ h1 {
         transform: translate3d(-75%, 0, 0);
     }
 }
-
 
 /* cards */
 .card:hover {
