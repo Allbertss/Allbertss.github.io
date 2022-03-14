@@ -76,8 +76,8 @@ h1 {
 }
 
 .test2 {
-    background-image: url("../images/grass.png");
-    background-size: cover;
+    background-image: url("../images/grass-min.png");
+    background-size: repeat;
 }
 
 
