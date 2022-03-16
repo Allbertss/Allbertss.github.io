@@ -221,3 +221,18 @@ h1 {
 }
 
 /* faq */
+/* .accordion-item {
+    background-color: #407535;
+}
+
+.accordion-button {
+    background-color: #9B7D3D;
+} */
+
+.collapsed {
+    background-color: #407535;
+}
+
+.collapse {
+    background-color: #9B7D3D;
+}
