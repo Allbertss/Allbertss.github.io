@@ -235,6 +235,7 @@ h1 {
     background-color: #407535;
 }
 
-.collapse {
-    background-color: red;
+/* footer */
+.footer-border {
+    border-top: 1px solid #407535 !important;
 }
