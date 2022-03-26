@@ -78,6 +78,35 @@ h1 {
     }
 }
 
+/* separator images */
+.separator {
+    background-color: var(--color-background-primary);
+    justify-content: center;
+}
+
+.separator img {
+    width: 500px;
+    height: 500px;
+}
+
+/* float */
+.float {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
 /* container-grass */
 .container-grass {
     background-image: url("../images/backgrounds/grass-minified.png");
@@ -86,7 +115,7 @@ h1 {
 
 /* roadmap */
 #roadmap li {
-    text-shadow: .01rem .01rem var(--color-text-shadow);
+    /* text-shadow: .01rem .01rem var(--color-text-shadow); */
 }
 
 /* showcase */
