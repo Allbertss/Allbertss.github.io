@@ -250,3 +250,21 @@ h1 {
 }
 
 /* faq */
+/* #407535 */
+/* #9B7D3D */
+.accordion-item {
+    background-color: #407535;
+}
+
+.accordion-button.collapsed {
+    background-color: #9B7D3D;
+}
+
+.accordion-body {
+    background-color: #407535;
+}
+
+/* footer */
+.footer-border {
+    border-top: 1px solid #407535 !important;
+}
